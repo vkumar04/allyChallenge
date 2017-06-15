@@ -5,6 +5,12 @@
 #main-container {
   margin-top: 100px; }
 
+.navbar-default .navbar-toggle {
+  border: none; }
+
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent; }
+
 .navbar {
   background: #328fc2; }
   .navbar .icon-bar {
