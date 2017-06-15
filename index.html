@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ally Challenge</title>
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico"/>
+<link rel="shortcut icon" type="image/png" href="./assets/favicon.ico"/>
+  <!--import bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--import stylesheet-->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+          aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <img class="img-responsive" src="./assets/urbank.png" alt="urbank">
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">home</a></li>
+          <li><a href="#">employee</a></li>
+          <li class="active"><a href="#">company</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+  <!--container-->
+  <div class="container" id="main-container">
+    <!--content-->
+    <div class="col-md-9" id="content">
+      <h1>Best Bank Ever!</h1>
+      <br>
+      <p>Pellentesque habitant morbi tristique senectus et netus et <a href="#">malesuada</a> fames ac turpis egestas. Vestibulum
+        tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+        Aenean ultricies mi vitae est. Mauris <a href="#">placerat</a> eleifend leo. Quisque sit amet est et sapien ullamcorper
+        pharetra.
+      </p>
+      <br>
+      <h4>Reasons We're Awesome:</h4>
+      <div class="container-fluid">
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Aliquam tincidunt mauris eu risus.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Vestibulum auctor dapibus neque.</li>
+        </ul>
+      </div>
+      <br>
+      <div id="mobile-info">
+        <div class="container-fluid">
+          <div class="col-md-10 col-sm-10">
+            <h4>Amazing Mobile Info</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+              quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+              ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <img id="iphone" src="./assets/iphone.png" alt="iphone">
+          </div>
+        </div>
+      </div>
+      <div id="table-container">
+        <h1><span id="rates">Rates</span> | Check them out.</h1>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Annual Percentage Yield</th>
+              <th>Est. Earnings for 1 Year*</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+        <p id="table-footer" class="pull-right">based on $50,000 deposit*</p>
+      </div>
+    </div>
+    <!--sidebar content-->
+    <div class="col-md-3" id="side-content">
+      <button class="btn show-modal">Login</button>
+      <!--tabs-->
+      <div class="tab-container">
+        <ul class="tabs">
+          <li class="tab-link current" data-tab="news">News</li>
+          <li class="tab-link" data-tab="archive">Archive</li>
+        </ul>
+
+        <div id="news" class="tab-content current">
+          <ul>
+            <li>
+              <h4><a href="#">Lorem ipsum dolor</a></h4>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            </li>
+            <li>
+              <h4><a href="#">Lorem ipsum dolor</a></h4>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            </li>
+            <li>
+              <h4><a href="#">Lorem ipsum dolor</a></h4>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            </li>
+          </ul>
+        </div>
+        <div id="archive" class="tab-content">
+          <ul>
+            <li>
+              <h4><a href="#">Lorem ipsum dolor</a></h4>
+            </li>
+            <li>
+              <h4><a href="#">Lorem ipsum dolor</a></h4>
+            </li>
+            <li>
+              <h4><a href="#">Lorem ipsum dolor</a></h4>
+            </li>
+            <li>
+              <h4><a href="#">Lorem ipsum dolor</a></h4>
+            </li>
+            <li>
+              <h4><a href="#">Lorem ipsum dolor</a></h4>
+            </li>
+            <li>
+              <h4><a href="#">Lorem ipsum dolor</a></h4>
+            </li>
+            <li>
+              <h4><a href="#">Lorem ipsum dolor</a></h4>
+            </li>
+            <li>
+              <h4><a href="#">Lorem ipsum dolor</a></h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- modal -->
+      <div class="modal">
+        <a class="close-modal" href="#"><img src="./assets/times.png" alt=""></a>
+        <h3>Sign In To Your Account</h3>
+        <div class="form">
+          <form class="register-form">
+            <input type="text" placeholder="username" />
+            <input type="password" placeholder="password" />
+            <button class="btn">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+    <footer>
+      <a href="#">&copy; URBank <span id="copy"></span></a>
+      <nav>
+        <a href="#">home</a>
+        <a href="#">employee</a>
+        <a href="#" class="active">company</a>
+        <a href="#">services</a>
+        <a href="#">contact</a>
+      </nav>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+.navbar{
+  background: $nav-background;
+
+  .icon-bar{
+    background-color: #ddd!important;
+  }
+
+  img{
+    margin-top: 6px;
+  }
+
+  .navbar-nav > .active > a, 
+  .navbar-nav > .active > a:hover, 
+  .navbar-nav > .active > a:focus {
+      background: $nav-active;
+      color: $nav-color;
+      font-weight: bold;
+  }
+  .nav li a{
+    color: $nav-color;
+  }
+}
